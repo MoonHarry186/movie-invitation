@@ -97,11 +97,8 @@
   </div>
 
   <div id="result">
-    <img src="https://media.tenor.com/WCMJZ8nkkY0AAAAM/cute-kitten.gif" class="kitten" />
-    <div class="hearts">💞 Just My & Harrry 💘</div>
-    <p>Just My & Harry — meant to be since forever 💍</p>
-    <p>Em đồng ý, Just My! Em đã đồng ý với anh rồi 😚</p>
-    <div id="countup">Loading timer…</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvli2gh0K7okdJyhSAN5Bvc49wHrZf4G06Q&s" class="kitten" />
+    <p>Yeahhh em đã đồng ý với anh rồi, hẹn em tối thứ 7 nhé 😚</p>
     <canvas id="confettiCanvas" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;"></canvas>
   </div>
 
@@ -167,7 +164,7 @@
         hearts.forEach(h => {
           ctx.globalAlpha = h.opacity;
           ctx.font = `${h.size}px serif`;
-          ctx.fillText("❤️ Just My & Harrry 💙", h.x, h.y);
+          ctx.fillText("❤️ Em quá là đáng yêu luôn 💙", h.x, h.y);
           h.y += h.speed;
           if (h.y > canvas.height) {
             h.y = -20;
